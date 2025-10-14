@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #073763;
+}
+
+.changelog {
+  text-align: center;
+}
+
+.changelog__text--gray {
+  color: #999EA2;
+}
+
+.changelog__title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: #073763;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.changelog__list {
+  list-style-type: none;
+  margin: 1.75rem;
+  padding: 2em 0;
+  border-left: 2px dashed #4D759A;
+}
+
+.changelog__item {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.changelog__item::before {
+  content: "•";
+  font-size: 6rem;
+  line-height: .5;
+  margin-right: .25em;
+  margin-left: -0.165em;
+  transform: translateY(-7px);
+}
+
+.changelog__text--item {
+  display: inline;
+  text-align: left;
+}
+
+.changelog__list--dates {
+  border: none;
+}
+
+.changelog__item--dates {
+  height: 3rem;
+}
+
+.changelog__item--dates::before {
+  content: "";
+}
+
+.changelog__button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  background-color: #073763;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  transition: background-color 1s;
+}
+
+.changelog__button:hover {
+  background-color: #4D75FA;
+  cursor: pointer;
+}
+
+@media (max-width:930px) {
+  .changelog__list {
+    margin: 1.75em 1em;
+  }
+  .changelog__item, .changelog__item--dates {
+    height: 3.5rem;
+  }
+  .changelog__button {
+    margin-bottom: 1em;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .changelog__item, .changelog__item--dates {
+    height: 8.5rem;
+  }
+  .changelog__button {
+    margin-bottom: 1em;
+  }
+
+}
+
