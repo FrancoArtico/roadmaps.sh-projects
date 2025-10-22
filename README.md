@@ -11,8 +11,14 @@ Build a simple and responsive changelog component for a website using HTML and C
 The component should display a list of recent updates or improvements made to a project or software.
 This exercise focuses on layout design, spacing, and positioning, helping you practice visual organization and CSS structure to create an attractive and user-friendly changelog section.
 
-
-**Project idea link:** [Changelog Component Project - Roadmap.sh](https://roadmap.sh/projects/changelog-component).
+<p align="center">
+  <a href="https://roadmap.sh/projects/changelog-component" target="_blank">
+    <img src="https://img.shields.io/badge/Project%20Idea-181717?style=for-the-badge&logo=roadmapdotsh&logoColor=white" alt="Roadmap.sh Project" />
+  </a>
+  <a href="https://github.com/FrancoArtico/roadmaps.sh-projects/tree/main/changelog" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Code-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Code" />
+  </a>
+</p>
 
 ## 💬 Testimonal Cards — HTML & CSS Project
 <p align="center">
@@ -24,5 +30,11 @@ Create some testimonial cards with different designs for a website using HTML an
 The component shows the testimony of a hypothetical client with their respective role.
 The objective of this project is to learn how to create different layouts using HTML and CSS.
 
-
-**Project idea link:** [Testimonal Cards Project - Roadmap.sh](https://roadmap.sh/projects/testimonial-cards).
+<p align="center">
+  <a href="https://roadmap.sh/projects/testimonial-cards" target="_blank">
+    <img src="https://img.shields.io/badge/Project%20Idea-181717?style=for-the-badge&logo=roadmapdotsh&logoColor=white" alt="Roadmap.sh Project" />
+  </a>
+  <a href="https://github.com/FrancoArtico/roadmaps.sh-projects/tree/main/testimonial-cards" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Code-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Code" />
+  </a>
+</p>
