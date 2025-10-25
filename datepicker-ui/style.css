@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+.flex {
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-input {
+  font-family: "Monserrat", sans-serif;
+  padding: 3px 5px;
+  width: 200px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 2px solid #4169e1;
+  transition: border 0.3s ease-in;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: background-color 0.3s ease-in, box-shadow 0.2s ease-in;
+}
+
+.date-input:hover {
+  background-color: #f1f0f0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.date-input:focus {
+  outline: none;
+}
+
+.calendar-button {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 2px 5px;
+  border: 2px solid #4169e1;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: background-color 0.3s ease-in, box-shadow 0.2s ease-in;
+}
+
+.calendar-button:hover {
+  background-color: #f1f0f0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-button:active {
+  background-color: white;
+}
+
+.absolute {
+  position: absolute;
+  top: 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  justify-items: center;
+}
+
+.calendar {
+  font-family: "Monserrat", sans-serif;
+  margin-top: 4px;
+  padding-bottom: 1em;
+  border: 2px solid #4169e1;
+  border-radius: 5px;
+}
+
+.calendar-left-arrow {
+  margin-left: 1em;
+}
+
+.calendar-month-year {
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  background-color: #4169e1;
+  color: white;
+}
+
+.calendar-right-arrow {
+  margin-right: 1em;
+}
+
+.calendar-right-arrow,
+.calendar-left-arrow {
+  cursor: pointer;
+}
+
+.calendar-days {
+  padding: 0 1em;
+}
+
+.calendar-day {
+  text-align: center;
+  background-color: #e5e3e3;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: border 0.3s ease-out;
+}
+
+.calendar-day:hover {
+  border: 2px solid #4169e1;
+  border-radius: 50%;
+}

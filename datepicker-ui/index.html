@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datepicker-UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex">
+      <input
+        class="date-input center"
+        type="text"
+        name="date"
+        id="date"
+        placeholder="dd/mm/yyyy"
+      />
+      <button class="calendar-button">
+        <img
+          class="calendar-logo"
+          src="assets/calendar.svg"
+          alt="calendar icon"
+          width="20"
+          height="20"
+        />
+      </button>
+      <div class="calendar absolute">
+        <div class="calendar-month-year flex">
+          <img
+            class="calendar-left-arrow"
+            src="assets/left-arrow.svg"
+            alt="left arrow icon"
+            width="30"
+            height="30"
+          />
+          <p>October 2025</p>
+          <img
+            class="calendar-right-arrow"
+            src="assets/right-arrow.svg"
+            alt="right arrow icon"
+            width="30"
+            height="30"
+          />
+        </div>
+        <div class="calendar-days grid">
+          <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span
+          ><span>F</span><span>S</span> <span class="calendar-day">1</span
+          ><span class="calendar-day">2</span><span class="calendar-day">3</span
+          ><span class="calendar-day">4</span><span class="calendar-day">5</span
+          ><span class="calendar-day">6</span><span class="calendar-day">7</span
+          ><span class="calendar-day">8</span><span class="calendar-day">9</span
+          ><span class="calendar-day">10</span
+          ><span class="calendar-day">11</span
+          ><span class="calendar-day">12</span
+          ><span class="calendar-day">13</span
+          ><span class="calendar-day">14</span
+          ><span class="calendar-day">15</span
+          ><span class="calendar-day">16</span
+          ><span class="calendar-day">17</span
+          ><span class="calendar-day">18</span
+          ><span class="calendar-day">19</span
+          ><span class="calendar-day">20</span
+          ><span class="calendar-day">21</span
+          ><span class="calendar-day">22</span
+          ><span class="calendar-day">23</span
+          ><span class="calendar-day">24</span
+          ><span class="calendar-day">25</span
+          ><span class="calendar-day">26</span
+          ><span class="calendar-day">27</span
+          ><span class="calendar-day">28</span
+          ><span class="calendar-day">29</span
+          ><span class="calendar-day">30</span
+          ><span class="calendar-day">31</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
