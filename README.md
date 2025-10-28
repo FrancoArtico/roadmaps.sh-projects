@@ -57,3 +57,31 @@ The objective of this project is to practice working with dynamic UI elements an
     <img src="https://img.shields.io/badge/View%20Code-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Code" />
   </a>
 </p>
+
+## 🧾 Accessible Form UI — HTML & CSS Project
+### 💻 Desktop view:
+<p align="center">
+  <!-- Desktop View -->
+  <img width="830" height="auto" alt="Desktop view of Accessible Form UI" src="https://github.com/user-attachments/assets/df979747-3d71-4431-8608-12da7cb4f657" />
+</p>
+
+### 📱 Mobile view:
+<p align="center">
+  <!-- Mobile View -->
+  <img width="780" height="auto" alt="Mobile view of Accessible Form UI" src="https://github.com/user-attachments/assets/85b13eb9-cd61-4a3e-beda-84eb080a1d3a" />
+  
+</p>
+
+**Description:**
+Build an accessible and responsive form component using HTML and CSS.
+The goal of this project is to create a form that follows accessibility best practices, ensuring usability for all users, including those using screen readers or keyboard navigation.
+This exercise helps reinforce the importance of semantic HTML, proper labeling, and visual design that enhances user experience across devices.
+
+<p align="center">
+  <a href="https://roadmap.sh/projects/accessible-form-ui" target="_blank">
+    <img src="https://img.shields.io/badge/Project%20Idea-181717?style=for-the-badge&logo=roadmapdotsh&logoColor=white" alt="Roadmap.sh Project" />
+  </a>
+  <a href="https://github.com/FrancoArtico/roadmaps.sh-projects/tree/main/accessible-form-ui" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Code-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Code" />
+  </a>
+</p>
