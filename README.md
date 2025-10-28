@@ -38,3 +38,22 @@ The objective of this project is to learn how to create different layouts using 
     <img src="https://img.shields.io/badge/View%20Code-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Code" />
   </a>
 </p>
+
+## 📅 Datepicker UI — HTML & CSS Project
+<p align="center">
+  <img width="830" height="439" alt="image" src="https://github.com/user-attachments/assets/782f5676-8bff-4a15-83d1-41cde25acb99" />
+</p>
+
+**Description:**
+Build a date picker component using HTML and CSS.
+The component is not a functional date picker. I've focused on making the UI.
+The objective of this project is to practice working with dynamic UI elements and improve styling skills with CSS to create a visually appealing date selection tool.
+
+<p align="center">
+  <a href="https://roadmap.sh/projects/datepicker-ui" target="_blank">
+    <img src="https://img.shields.io/badge/Project%20Idea-181717?style=for-the-badge&logo=roadmapdotsh&logoColor=white" alt="Roadmap.sh Project" />
+  </a>
+  <a href="https://github.com/FrancoArtico/roadmaps.sh-projects/tree/main/datepicker-ui" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Code-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View Code" />
+  </a>
+</p>
