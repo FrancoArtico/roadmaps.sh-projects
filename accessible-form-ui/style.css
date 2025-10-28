@@ -1,0 +1,177 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Monserrat", sans-serif;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 2em;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.form__title {
+  margin-bottom: 0.5em;
+  color: #03045e;
+}
+
+.form__fieldset {
+  border: none;
+}
+
+.form__legend {
+  font-size: 1.3rem;
+  color: #005D8F;
+  margin-bottom: 0.5em;
+}
+
+.form__label {
+  display: block;
+  font-size: 1.1rem;
+  margin: 0.3em 0;
+}
+
+.form__input {
+  font-family: "Monserrat", sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.3em 0.5em;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 3px solid #005D8F;
+}
+
+.form__container {
+  position: relative;
+}
+
+.form__input::placeholder {
+  font-family: "Monserrat", sans-serif;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.input-error {
+  color: #97372B;
+  border: 2px solid #97372B;
+}
+
+.password-button {
+  position: absolute;
+  cursor: pointer;
+  margin-left: -2.5em;
+  border: none;
+  padding: .4em .5em;
+  background-color: transparent;
+}
+
+.form__input-validation {
+  font-size: 0.9rem;
+  color: rgb(77, 77, 77);
+}
+
+.progress-bar {
+  margin: 0.3em 0;
+  height: 1rem;
+  border: 2px solid #295A0C;
+  border-radius: 1em;
+}
+
+.progress {
+  height: 100%;
+  width: 70%;
+  background-color: #295A0C;
+}
+
+.progress-percentage {
+  text-align: center;
+  font-weight: 600;
+  color: #295A0C;
+}
+
+.form__button {
+  display: block;
+  cursor: pointer;
+  font-family: "Monserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #03045e;
+  color: #fff;
+  width: 80%;
+  margin: 0.5em auto;
+  padding: 0.3em 0.7em;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.form__button:focus {
+  border: 3px solid #005D8F;
+}
+
+.form__button:hover {
+  opacity: 0.9;
+}
+
+.form__steps {
+  background-color: #EEEEEE;
+  padding: 1em 1em;
+  border-radius: 5px;
+}
+
+.system-messages {
+  color: #97372B;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+.form__list {
+  list-style: none;
+}
+
+.form__step {
+  margin: 0.5em 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #295A0C;
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 80%;
+    max-width: 750px;
+  }
+
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form {
+    width: 55%;
+  }
+
+  .form__steps {
+    width: 40%;
+  }
+}
